@@ -1,0 +1,398 @@
+.container{
+    background-color: #aa4043;
+    background-image: url("kaleidoscope.png");
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+/* -------------Head---------------- */
+.menu{
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Tránh tràn viền */
+    background-color: #333333;
+    position: relative;
+}
+
+.menu-inner{
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+    border-right: 1px grey solid;
+    height: 40px;
+}
+
+.menu-inner ul{
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.menu-inner li{
+    float: left;
+    border-left: 1px grey solid;
+}
+
+.menu-inner li a{
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.menu-inner li a:hover {
+    background-color: #111111;
+}
+
+.header{
+    background-color: #722f31;
+    padding: 15px 0 20px;
+}
+
+.header-inner{
+    width: 940px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.icon{
+    float: left;
+    position: relative;
+}
+
+.icon i{
+    font-size: 100px;
+    color: white;
+}
+
+.title{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    padding-left: 120px;
+    vertical-align: top;
+    height: 50px;
+}
+
+.subtitle{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 120px;
+    height: 40px;
+    font-size: 25px;
+    margin: 20px 0 0;
+}
+
+/* ------------------Left------------------- */
+.main{
+    height: auto;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding-bottom: 100px; 
+}
+
+.left{
+    width: 70%;
+    height: auto;
+    padding: 22px 0;
+}
+
+.right{
+    width: 30%;
+    height: auto;
+    padding: 22px 0;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.des-banner{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.content ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content li{
+    display: inline-block;
+    width: 32%;
+}
+
+.last-page{
+    justify-content: space-around !important;
+}
+
+.content li h4{
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.content li h4 a{
+    color: white;
+}
+
+.content li h4 a:hover{
+    font-weight: bold;
+}
+
+.content img{
+    width: 100%;
+    height: auto;
+}
+
+.content li p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.about{
+    color: white;
+    margin: 0;
+    padding: 8px 0;
+    font-size: 25px;
+}
+
+.about h3{
+    font-weight: 100;
+}
+
+.about-detail{
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.paging{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.paging a{
+    text-decoration: none;
+    padding: 4px;
+    background-color: #aa4043;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.active{
+    background-color: white !important;
+    color: #aa4043 !important;
+}
+
+/* --------------------------Right------------------------ */
+.header-right{
+    height: auto;
+    background-color: #303030;
+    margin: 0px 26px;
+    padding: 7px 15px;
+}
+
+.header-right h4{
+    margin: 0;
+    color: white;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.social{
+    margin: 0px 26px;
+    padding: 10px 15px;
+    background-color: rgba(143, 46, 49, 0.5);
+}
+
+.social ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social ul li{
+    line-height: 22px;
+}
+
+.social ul li i{
+    color: white;
+}
+
+.social ul li a{
+    color: white;
+}
+
+/* ----------------Footer---------------------- */
+.footer{
+    height: 80px;
+    background-color: #303030;
+}
+
+.footer-item{
+    width: 940px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.footer a{
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 16px;
+    float: left;
+    width: auto;
+    line-height: 80px;
+}
+
+.footer-num{
+    float: right;
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.num{
+    background-color: white;
+    width: auto;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    padding: 3px 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 5px;
+}
+
+/* --------------Gallery---------------- */
+.slideshow{
+    position: relative;
+}
+
+.slideshow img{
+    display: block;
+    width: 85%;
+    height: auto;
+}
+
+.picture{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow button{
+    display: inline-block;
+    width: 100%;
+    background: rgba(73, 67, 67, 0.63);
+    border: none;
+    position: absolute;
+    top: 92%;
+    left: 0;
+}
+
+.slideshow i{
+    font-size: 30px;
+    color: white;
+}
+
+.slideshow i:hover{
+    color:#722f31;
+}
+
+.thumbnail ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.thumbnail li{
+    display: inline-block;
+    width: 21%;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+.viewers{
+    color: white;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.fullscreen-pic img{
+    width: 100%;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 7px;
+}
+
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+/* ---------------Contact---------------- */
+.address{
+    color: white;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    padding-bottom: 22px;
+}
+
+.contact-detail h3{
+    color: white;
+    font-weight: 100;
+}
+
+.info{
+    color: white;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+}
+
+.map iframe{
+    width: 100%;
+    height: 500px;
+    padding-top: 90px;
+}
+
+
+
+
+
+
